@@ -112,9 +112,11 @@ function draw() {
     obstaclesGroup.setLifetimeEach(-1);
     cloudsGroup.setLifetimeEach(-1);
     
-    if(mousePressedOver(restart) || keyDown("space") || keyDown("up")) {
+    if(mousePressedOver(restart)) {
       reset();
     }
+    
+    
   }
   
   
